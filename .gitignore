@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# SSL Certificates (auto-generated)
+certs/
+
 # Environment variables
 .env
 .env.local

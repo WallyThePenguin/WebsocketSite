@@ -11,8 +11,8 @@
  */
 
 // ===== Socket.io Connection =====
-// Connect to the Socket.io server at the specified address
-const socket = io("http://validtesting.tplinkdns.com:25567");
+// Connect to the Socket.io server via HTTPS/WSS
+const socket = io("https://validtesting.tplinkdns.com:25567");
 
 // ===== DOM Element References =====
 const elements = {
